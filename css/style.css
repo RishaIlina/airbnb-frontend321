@@ -68,7 +68,7 @@ img {
 
 .header-nav {
   display: inline-flex;
-  width: 70%;
+  width: 66%;
   flex-direction: row;
   justify-content: center;
 }
@@ -453,9 +453,10 @@ h3 {
 
 
 
-/* атомарные классы */
-.ml-15 {
-  margin-left: 15.5px;
+/* утилиты */
+
+.mt-16 {
+  margin-top: 16px;
 }
 
 .inline {
@@ -467,8 +468,14 @@ h3 {
   margin-left: 8px;
 }
 
-.ml-15px {
+.ml-15 {
   margin-left: 15px;
+}
+
+.flex-start {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .flex {

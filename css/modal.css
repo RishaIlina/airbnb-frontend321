@@ -68,7 +68,7 @@
 .modal-header {
   position: relative;
   min-height: 64px;
-  border-bottom: 1px solid var(--header-color);
+  border-bottom: 1px solid var(--bg-hover);
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 24px;
@@ -100,7 +100,6 @@
 .modal-footer span {
   font-size: 13px;
   margin-right: 8px;
-  color: var(--nav-link-color);
 }
 
 
