@@ -149,11 +149,6 @@ textarea {
 }
 
 
-
-
-
-
-
 /* buttons */
 .btn {
   --button-text-color: #222;
@@ -248,26 +243,16 @@ textarea {
 
 
 .btn-language:hover,
-.btn-money:hover,
-.btn-language:hover,
-.btn-facebook:hover,
-.btn-twitter:hover,
-.btn-instagram:hover {
-background-color: var(--bg-hover);
+.btn-money:hover {
+background-color: var(--footer-bg-color);
 }
 
-.btn-language,
-.btn-facebook,
-.btn-twitter {
-  margin-right: 16px;
-  padding: 0;
+.btn-language {
+  margin-right: 8px;
+  padding: 4px;
 }
 
 .btn-money {
-  margin-right: 40px;
-  padding: 0;
-}
-
-.btn-instagram {
-  padding: 0;
+  margin-right: 15px;
+  padding: 4px;
 }
